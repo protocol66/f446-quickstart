@@ -1,8 +1,8 @@
 # f446-quickstart
 
-A cargo-generate templete with files set up for STM32-F446 boards.
+A cargo-generate template with files set up for STM32-F446 boards.
 
-### Installation
+## Installation
 
 1. Install [cargo-generate](https://github.com/ashleygwilliams/cargo-generate):
 ```bash
