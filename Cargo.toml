@@ -15,7 +15,7 @@ cortex-m-rt = "0.6"
 panic-halt = "0.2"
 
 [dependencies.stm32f4xx-hal]
-version = "0.8"
+version = "0.8.3"
 features = ["rt", "stm32f446"] # replace the model of your microcontroller here
 
 # this lets you use `cargo fix`!
