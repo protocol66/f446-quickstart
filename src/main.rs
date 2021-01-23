@@ -14,14 +14,10 @@ use crate::hal::{prelude::*, stm32};
 
 #[entry]
 fn main() -> ! {
-    if let (Some(dp), Some(cp)) = (
-        stm32::Peripherals::take(),
-        cortex_m::peripheral::Peripherals::take(),
-    ) {
-        loop {
-            
-        }
-    }
+    let p = stm32::Peripherals::take().unwrap();
+    let cp = cortex_m::peripheral::Peripherals::take().unwrap();
+    
+    loop{
 
-    loop{} // To ensure program does not leave main
+    }
 }
