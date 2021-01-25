@@ -1,6 +1,6 @@
 # f446-quickstart
 
-A cargo-generate template based off the [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart) template with files set up for the STM32-F446 board.
+A cargo-generate template based off the [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart) template with files set up for the STM32-F446.
 
 ## Installation
 
